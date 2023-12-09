@@ -1,5 +1,5 @@
-# This project will be uniquely identified in my portfolio as project 1-5. 
-# It will be an updated version of my project 1-4, the Random Quote Generator, with a local storage feature added. 
+# This project will be a comprehensive research project about how to design a random quote machine.
+# A standard generator will be created as well as a version with storage.
 
 # References: 
 # Coding Artist (2021 & 2023) Random Quote Generator & Local Storage Projects 
