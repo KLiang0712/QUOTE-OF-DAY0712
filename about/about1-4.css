@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background-color: gold;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  border: 5px solid #79F6FC;
+  color: green;
+  width: 500px;
+  background-color: white;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.controls {
+  height: 100px;
+  border: 5px solid #79F6FC;
+  background-color: green;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.controls button {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-left: 1em;
+  cursor: pointer;
+  border: 5px solid gold;
+  width: 300px;
+}
+
+.home {
+  color: green;
+  border: 5px solid gold;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.home:hover {
+  background-color: #79F6FC;
+  color: green;
+}

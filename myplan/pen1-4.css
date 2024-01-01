@@ -1,0 +1,114 @@
+body {
+	font-family: Arial;
+	background: linear-gradient(45deg, green, gold);
+  }
+  
+  #container {
+	width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+  }
+  
+  #container h2 {
+	text-align: center;
+	background-color: #79F6FC;
+	color: green;
+	font-weight: bold;
+  }
+  
+  #quoteContainer {
+	background: #ffffff;
+	border: 5px solid gold;
+	color: green;
+	padding: 10px;
+	margin: 30px auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	width: 600px;
+	height: 300px;
+  }
+  
+  #buttonContainer {
+	width: 100%;
+	text-align: center;
+  }
+  
+  #quoteButton {
+	width: 200px;
+	margin-top: 10px;
+	border: 2px solid #79F6FC;
+	color: green;
+	background-color: gold;
+	font-family: inherit;
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+  }
+  
+  #quoteButton:hover {
+	cursor: pointer;
+	background: #79F6FC;
+	color: green;
+  }
+  
+  #quoteButton:active {
+	cursor: pointer;
+  }
+  
+  #quoteButton {
+	display: inline-block;
+  }
+  
+  #quoteGenius {
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+  }
+  
+  
+  /*MEDIA QUERIES*/
+  @media screen and(max-width:760px) {
+  
+	#quoteButton,
+	#addNew {
+	  display: block;
+	}
+  }
+  
+  /* home/main menu controls button */
+  .controls {
+	height: 100px;
+	border: 5px solid #79F6FC;
+	background-color: green;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+  }
+  
+  .controls button {
+	padding: 8px;
+	border-radius: 8px;
+	font-size: 20px;
+	margin-left: 1em;
+	cursor: pointer;
+	border: 5px solid gold;
+  }
+  
+  .home {
+	color: green;
+	border: 5px solid gold;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: monospace;
+  }
+  
+  .home:hover {
+	background-color: #79F6FC;
+	color: green;
+  }
