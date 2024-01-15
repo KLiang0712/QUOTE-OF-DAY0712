@@ -5,7 +5,6 @@ let btn = document.getElementById('btn');
 
 const url = 'https://api.quotable.io/random';
 
-
 /* Storage content */
 let favourite = document.getElementById('favourite');
 let list = document.getElementById('list-of-favourite-quotes');
@@ -17,7 +16,6 @@ let closeButton = document.getElementById('close-favorite');
 
 let favorites = [];
  
-
 // Function to update the displayed quote and author
 const updateQuote = (content, authorName) => {
   quote.innerText = content;
@@ -61,7 +59,6 @@ let getQuote = () => {
 
 window.addEventListener("load", getQuote);
 btn.addEventListener("click", getQuote);
-
 */
 
 const getQuote = () => {
@@ -91,8 +88,10 @@ const addToFavorites = () => {
   const existsInFavorites = checkExistence(content, authorName);
   if (!existsInFavorites) {
     favorites.push({ content, author: authorName });
-    saveFavoritesToLocalStorage(); // Save to local storage
-    displayFavorites(); // Call this function to update the favorite quotes list
+    saveFavoritesToLocalStorage(); 
+    // Save to local storage
+    displayFavorites(); 
+    // Call this function to update the favorite quotes list
   }
 };
 

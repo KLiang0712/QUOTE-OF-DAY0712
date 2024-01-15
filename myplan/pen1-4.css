@@ -3,8 +3,13 @@ body {
 	background: linear-gradient(45deg, green, gold);
   }
   
+  #theme {
+	margin: auto;
+	text-align: center;
+  }
+  
   #container {
-	width: 800px;
+	width: 1000px;
 	margin: 50px auto;
 	padding: 20px;
   }
@@ -13,20 +18,25 @@ body {
 	text-align: center;
 	background-color: #79F6FC;
 	color: green;
+	border: 5px solid gold;
+	border-radius: 8px;
+	padding: 8px;
 	font-weight: bold;
+	font-size: 30px;
   }
   
   #quoteContainer {
-	background: #ffffff;
-	border: 5px solid gold;
+	background: white;
 	color: green;
+	border: 5px solid gold;
+	border-radius: 10px;
 	padding: 10px;
 	margin: 30px auto;
 	text-align: center;
 	font-weight: bold;
 	font-size: 30px;
-	width: 600px;
-	height: 300px;
+	width: 800px;
+	height: 400px;
   }
   
   #buttonContainer {
@@ -37,12 +47,14 @@ body {
   #quoteButton {
 	width: 200px;
 	margin-top: 10px;
-	border: 2px solid #79F6FC;
+	border: 5px solid #79F6FC;
 	color: green;
 	background-color: gold;
+	font-size: 30px;
 	font-family: inherit;
 	font-weight: bold;
-	padding: 5px;
+	padding: 8px;
+	border-radius: 8px;
 	text-decoration: none;
 	text-align: center;
   }
@@ -66,7 +78,6 @@ body {
 	font-weight: 600;
 	text-align: center;
   }
-  
   
   /*MEDIA QUERIES*/
   @media screen and(max-width:760px) {
@@ -94,8 +105,8 @@ body {
   .controls button {
 	padding: 8px;
 	border-radius: 8px;
-	font-size: 20px;
-	margin-left: 1em;
+	font-size: 30px;
+	margin-right: 20px;
 	cursor: pointer;
 	border: 5px solid gold;
   }
@@ -105,7 +116,7 @@ body {
 	border: 5px solid gold;
 	font-weight: bold;
 	font-size: 30px;
-	font-family: monospace;
+	font-family: Arial;
   }
   
   .home:hover {
