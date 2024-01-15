@@ -1,14 +1,16 @@
 .title {
-  color: green;
+  color: gold;
   position: relative;
   z-index: 1;
   top: 0;
   bottom: 0;
-  left: 20%;
+  right: 0;
   text-align: center;
-  margin-top: 10%;
-  background-color: gold;
+  margin: 10px auto;
+  background-color: green;
   border: 10px solid #79F6FC;
+  border-radius: 10px;
+  padding: 10px;
   width: 600px;
 }
 
@@ -17,10 +19,19 @@ body {
   background: linear-gradient(45deg, green, gold);
 }
 
+#theme {
+  float: right;
+  width: 500px;
+  height: 250px;
+}
+
 h2 {
   border: 5px solid #79f6fc;
   background-color: gold;
+  border-radius: 10px;
+  padding: 10px;
   color: green;
+  font-size: 30px;
 }
 
 /* Use the transition-duration property to determine the speed of the "hover" effect: */
@@ -43,6 +54,8 @@ h2 {
   font-family: arial;
   font-weight: bold;
   font-size: 30px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .button1:hover,
