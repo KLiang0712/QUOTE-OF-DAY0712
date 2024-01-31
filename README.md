@@ -15,18 +15,22 @@ Storage with API Base (2023) Retrieved from https://codingartistweb.com/2023/09/
   Enlight (2016) Build a Quote Generator
 Retrieved from https://enlight.nyc/projects/quote
 
-FreeCodeCamp (2014) Retrieved from https://www.freecodecamp.org/
-
-& Chris, K. (2022) HTML Center Image - CSS Align Img Center Example
-Retrieved from https://www.freecodecamp.org/news/html-center-image-css-align-img-center-example/
+  FreeCodeCamp (2014) Retrieved from https://www.freecodecamp.org/
+    & Chris, K. (2022) HTML Center Image - CSS Align Img Center Example
+  Retrieved from https://www.freecodecamp.org/news/html-center-image-css-align-img-center-example/
     
-& Sok, S. (2016) How to build a random quote generator with JavaScript and HTML for absolute beginner
-Retrieved from https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/
+    & Sok, S. (2016) How to build a random quote generator with JavaScript and HTML for absolute beginner
+  Retrieved from https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/
 
 
   Kostas's CodePen Random Quote Generator
 Retrieved from https://codepen.io/kkoutoup/pen/zxmGLE
 
+
+  Quotes Code Pen Sources:
+    Eina O. (2015) Random Quote Generator FreeCodeCamp Zipline Retrieved from https://codepen.io/thelittleblacksmith/pen/qbOgwG
+
+    Lamm, A. Random Quote Generator (HTML, CSS, JS) Retrieved from https://codepen.io/alamm/pen/bExmvp
 
   Rollbar Editorial Team (2023) How to Fix ReferenceError: $ is Not Defined in JavaScript
 Retrieved from https://rollbar.com/blog/fix-reference-error-is-not-defined-in-javascript/
