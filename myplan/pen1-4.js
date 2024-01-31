@@ -65,6 +65,10 @@ $(document).ready(function() {
         name: "Isaac Asimov"
       },
       {
+        quote: "Don't sweat the petty things and don't pet the sweaty things.",
+        name: "George Carlin"
+      },
+      {
         quote: "Procrastination is the art of keeping up with yesterday.",
         name: "Don Marquis"
       },
@@ -77,17 +81,18 @@ $(document).ready(function() {
         name: "Steve Martin"
       },
       {
-        quote: "My grandmother started walking five miles a day when she was sixty. She's ninety-seven now, and we don't know where the hell she is.",
+        quote: "My grandmother started walking 5 miles a day when she was 60. She's 97 now, and we don't know where the hell she is.",
         name: "Ellen DeGeneres"
       },
       {
-        quote: "Don't sweat the petty things and don't pet the sweaty things.",
-        name: "George Carlin"
+        quote: "You will face many defeats in life, but never let yourself be defeated.",
+        name: "Maya Angelou"
       },
       {
-        quote: "Always do whatever's next.",
-        name: "George Carlin"
+        quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+        name: "Albert Einstein"
       },
+      
       {
         quote: "Atheism is a non-prophet organization.",
         name: "George Carlin"
@@ -106,11 +111,11 @@ $(document).ready(function() {
         quote: "I am so clever that sometimes I don't understand a single word of what I am saying.",
         name: "Oscar Wilde"
       },
-  
       {
-        quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-        name: "Albert Einstein"
+        quote: "Always do whatever's next.",
+        name: "George Carlin"
       },
+
   
       {
         quote: "The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science.",
